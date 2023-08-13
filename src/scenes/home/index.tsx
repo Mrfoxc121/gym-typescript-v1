@@ -7,6 +7,7 @@ import SponsorRedbull from "@/assets/SponsorRedBull.png"
 import SponsorForbes from "@/assets/SponsorForbes.png"
 import SponsorFortune from "@/assets/SponsorFortune.png"
 import AnchorLink from "react-anchor-link-smooth-scroll"
+import { motion } from "framer-motion"
 
 
 
