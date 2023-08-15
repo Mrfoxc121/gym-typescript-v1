@@ -1,3 +1,4 @@
+import { UrlObject } from "url";
 
 
 export enum SelectedPage {
@@ -11,4 +12,9 @@ export enum SelectedPage {
     icon: JSX.Element;
     title: string;
     description: string
+  }
+  export interface ClassType {
+    name: string;
+    description?: string
+    image: string
   }
