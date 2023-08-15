@@ -22,8 +22,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
     const isValid = await trigger();
     if (!isValid) {
       e.preventDefault();
-    } 
-    document.getElementById("myForm").reset();
+    }
     
   };
 
