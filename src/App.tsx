@@ -5,6 +5,7 @@ import Home from '@/scenes/home'
 import Benefits from '@/scenes/Benefits'
 import OurClasses from '@/scenes/OurClasses'
 import ContactUs from '@/scenes/ContactUs'
+import Footer from '@/scenes/Footer/Footer'
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
   return (
-    <div className="app bg-gray-20">
+    <div id="top" className="app bg-gray-20">
       <Navbar
         isTopOfPage={isTopOfPage}
         selectedPage={selectedPage}
@@ -34,6 +35,7 @@ function App() {
       <Benefits setSelectedPage={setSelectedPage} />
       <OurClasses setSelectedPage={setSelectedPage} />
       <ContactUs setSelectedPage={setSelectedPage} />
+      <Footer setSelectedPage={setSelectedPage} />
     </div>
   )
 }
